@@ -1,0 +1,104 @@
+a:link, a:visited {
+    color: blue;
+   
+    
+}
+a:hover {
+    text-decoration: none;
+    color:green;
+    transition: 0.3s all ease-in-out;
+    font-size: 20px
+}
+.site-header{
+    
+    display: flex;
+    background-color:whitesmoke;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: rgba(255, 255, 255, 0.4) 0px 0px 20px;
+    
+}
+.tit{
+display: flex;
+align-items: center;
+}
+.middle-index{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: center;
+    width: auto;
+    height: auto;
+    max-height: 500px;
+    padding: 5em;
+    background-image: url(images/copie.jpg);
+    background-size: contain;
+}
+@font-face{
+    font-family: ecriture;
+    src: url("ShantellSans-SemiBoldItalic.ttf");
+
+}
+.enter{
+    display: grid;
+    background-color:powderblue;
+    grid: center;
+}
+p{
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.cont{
+    font-family: ecriture;
+}
+.middle-about{
+    display: flex;
+    flex-wrap: wrap;
+}
+.text{
+    color: brown;
+    animation: 5s ease-in 1s infinite reverse both running slidein;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    background-color: burlywood;
+
+}
+.imageA{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: 100px;
+    gap: 5px;
+    
+}
+.middle-activity{
+    display: flex;
+    flex-wrap: wrap;   
+}
+.tag{
+    display: flex;
+    flex-wrap: wrap;   
+}
+.nous{
+    box-shadow: -10px 5px olivedrab;
+    
+}
+.dance:hover{
+    transform: scale(1.5);
+    
+}
+.activity-footer{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.images{
+    display: flex;
+}
+
+
+
+
